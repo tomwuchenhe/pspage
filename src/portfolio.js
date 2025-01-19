@@ -50,10 +50,10 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Understanding of No-sql and sql database with concurrent programming"),
     emoji(
-      "⚡ Integration of third party services such as Paypal / GoogleCloud"
-    )
+      "⚡ Understanding of No-sql and sql database with concurrent programming"
+    ),
+    emoji("⚡ Integration of third party services such as Paypal / GoogleCloud")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -155,7 +155,7 @@ const techStack = {
     {
       Stack: "Algorithm Optimization",
       progressPercentage: "40%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
