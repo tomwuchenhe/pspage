@@ -11,6 +11,7 @@ export default function GithubProfileCard({prof}) {
   } else {
     prof.hireable = "No";
   }
+  console.log(prof, contactInfo)
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
