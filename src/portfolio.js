@@ -23,7 +23,7 @@ const greeting = {
   username: "Chenhe Wu",
   title: "Hi all, This is Chenhe",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and CSS frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and CSS frameworks."
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1hyXmt-QU7GQZ8SRODhZ18TSe9iyREYBI",
@@ -51,9 +51,15 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji(
-      "⚡ Understanding of No-sql and sql database with concurrent programming"
+      "⚡ Understanding of No-sql and sql database with practical projects"
     ),
-    emoji("⚡ Integration of third party services such as Paypal / GoogleCloud")
+    emoji(
+      "⚡ Integration of third party services such as Paypal / GoogleCloud"
+    ),
+    emoji("⚡ Understanding of security and hashing technqiue"),
+    emoji(
+      "⚡ Practiacl experience gained through personal projects built from scratch"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -99,6 +105,19 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -116,12 +135,13 @@ const educationInfo = {
       duration: "September 2022 - April 2026",
       desc: "Relevant courses in",
       descBullets: [
+        "Software Development",
         "Algorithm Design",
-        "Concurrent Programming",
-        "Database Design",
+        "Concurrent System",
+        "Databases",
         "Operating System",
         "Computer Architecture",
-        "..."
+        "Computer Networks and Security"
       ]
     }
   ]
@@ -133,15 +153,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend: React.Js, CSS frameworks", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Backend: Node.Js, C, Python, C++, C#, relevant frameworks",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Multithreading and concurrency",
       progressPercentage: "60%"
     },
     {
@@ -149,12 +169,20 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
-      Stack: "DevOps",
+      Stack: "DevOps: Docker, Gcloud(App engine, kubernetes)",
       progressPercentage: "50%"
     },
     {
       Stack: "Algorithm Optimization",
       progressPercentage: "40%"
+    },
+    {
+      Stack: "Services(Postman, RESTful APIs, Agile dev method)",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Networking protocols and Security",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
