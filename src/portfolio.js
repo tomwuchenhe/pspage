@@ -58,7 +58,7 @@ const skillsSection = {
     ),
     emoji("⚡ Understanding of security and hashing technqiue"),
     emoji(
-      "⚡ Practiacl experience gained through personal projects built from scratch"
+      "⚡ Practical experience gained through personal projects built from scratch"
     )
   ],
 
